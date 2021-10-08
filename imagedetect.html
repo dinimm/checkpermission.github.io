@@ -145,7 +145,7 @@
                 }
 
                 if (classPrediction=="Class 2: 0.01"){
-                  document.getElementById("info").innerHTML="Bottle detected, Please lock the station"
+                  document.getElementById("info").innerHTML="tle detected, Please lock the station"
 
                 }
 
@@ -153,7 +153,7 @@
                 //og finn ut hvilken label som blir fulgt
                 //what is being trickered is backround noise and clas 2. We can store same sound on both. Make them very precise on the training
                 //bruk else if metoden eller && metoden
-                if (classPrediction == "bottle: 0.80") {
+                if (classPrediction == "ottle: 0.80") {
                     //amountcounter();
                     // Stop the recognition in 5 seconds.
                     setTimeout(() => recognizer.stopListening(), 500);
@@ -164,108 +164,7 @@
                     },500)
 
 
-                }else if (classPrediction == "bottle: 0.81") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.82") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.83") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.84") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.85") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.86") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.87") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.88") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.89") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.90") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.91") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.92") {
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.93") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.94") {
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.95") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.96") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.97") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.98") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 0.99") {
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  alert("check!")
-                  amountcounter();
-
-                }else if (classPrediction == "bottle: 1.00") {
-                  amountcounter();
-
-                  setTimeout(() => recognizer.stopListening(), 500);
-                  setTimeout(function(){
-                    alert("Thank you for taking care for the enviroment, you have now received 2 CC!")
-                    //window.location.href=("index.html");
-
-                  },500)
+               
 
                 }
             }
